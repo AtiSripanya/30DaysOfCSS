@@ -1,5 +1,5 @@
 body{
-  background-color:pink;
+  background-color:purple;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@ body{
 }
 
 .card{
-  background-color: #38BEDC;
+  background-color: pink;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -24,14 +24,14 @@ body{
 }
 
 .card a:hover{
-  color: red;
+  color: green;
 }
 
 .bar{
   position: absolute;
   width: 100px;
   height: 4px;
-  background-color: red;
+  background-color: green;
   bottom: 0;
   left: -100px;
   transition: .4s linear;
